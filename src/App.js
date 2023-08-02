@@ -7,7 +7,7 @@ import Portfolio from './pages/Portfolio'
 import Resume from './pages/Resume'
 import './assets/css/styles.css'
 import { Router, Route, Routes } from 'react-router-dom'
-import background from "../src/assets/background.jpg";
+import background from "../src/assets/images/background.jpg";
 
 
 
