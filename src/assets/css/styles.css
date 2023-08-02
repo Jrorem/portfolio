@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    
+    
+}
+
+body {
+    margin: 0;
+    width: 100%;  
+}
+
+ul {
+    background: rgba( 255, 255, 255, 0.45 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li{
+    padding: 0 2rem;
+    list-style-type: none 
+
+}
+
+.footer {
+    background: rgba( 255, 255, 255, 0.45 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
+    height: 50px;
+}
+
+.active{
+    font-weight: bold;
+    color: yellow;
+}
+
+#portfolio{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.app{
+    background: rgba( 255, 255, 255, 0.45 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 30%;
+    height: 100%;
+    padding: 5px;
+    margin: 10px;
+}
+
+/* .navigate{
+display:flex;
+
+} */
+
+.navbar{
+    display: flex;
+    align-content: start;
+    align-content: flex-start;
+    height: 50px;
+}
+
+.navbutton{
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about{
+    
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: center;
+    
+}
+
+.home{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.download{
+    background: rgba( 255, 255, 255, 0.45 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    width: 100px;
+}
+
+.glass{
+    background: rgba( 255, 255, 255, 0.45 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
