@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header'
+import Footer from './components/Footer'
+import About from './pages/About'
+import Contact from './pages/Contact'
+import Home from './pages/Home'
+import Portfolio from './pages/Portfolio'
+import Resume from './pages/Resume'
+import './components/styles.css'
+import { Router, Route, Routes } from 'react-router-dom'
+import background from "../src/assets/background.jpg";
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Router basename='react-portfolio'>
+    <div class="App" style={{ backgroundImage: `url(${background})`, backgroundSize: 'cover', height: '100vh'}}>  
+    <Header/>  
+      <Routes>
+        <Route path='/' element={<Home/>} />
+        <Route path='/about' element={<About/>} />
+        <Route path='/contact' element={<Contact/>} />
+        <Route path='/portfolio' element={<Portfolio/>} />
+        <Route path='/resume' element={<Resume/>} />
+      </Routes>
+      <Footer/>
+      
     </div>
+    </Router>
   );
 }
+
+
 
 export default App;
