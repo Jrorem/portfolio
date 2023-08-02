@@ -5,12 +5,12 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
-import concert from '../static/concert.png';
-import pumped from '../static/pumped.png';
-import quiz from '../static/quiz.png';
-import weather from '../static/weather.png';
-import password from '../static/password.png';
-import schedule from '../static/schedule.png';
+import concert from '../assets/images/concert.png';
+import pumped from '../assets/images/pumped.png';
+import quiz from '../assets/images/quiz.png';
+import weather from '../assets/images/weather.png';
+import password from '../assets/images/password.png';
+import schedule from '../assets/images/schedule.png';
 
 
 export default function Portfolio () {
