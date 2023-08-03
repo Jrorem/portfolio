@@ -13,7 +13,7 @@ import background from "../src/assets/images/background.2d300d3903fdeffdb817.jpg
 
 function App() {
   return (
-    <Router basename='react-portfolio'>
+    <Router basename='portfolio'>
     <div class="App" style={{ backgroundImage: `url(${background})`, backgroundSize: 'cover', height: '100vh'}}>  
     <Header/>  
       <Routes>
