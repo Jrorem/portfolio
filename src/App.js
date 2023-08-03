@@ -6,14 +6,14 @@ import Home from './pages/Home'
 import Portfolio from './pages/Portfolio'
 import Resume from './pages/Resume'
 import './assets/css/styles.css'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import { HashRouter, Route, Routes } from 'react-router-dom'
 import background from "../src/assets/images/background.2d300d3903fdeffdb817.jpg"
 
 
 
 function App() {
   return (
-    <BrowserRouter basename='portfolio'>
+    <HashRouter basename='portfolio'>
     <div class="App" style={{ backgroundImage: `url(${background})`, backgroundSize: 'cover', height: '100vh'}}>  
     <Header/>  
       <Routes>
@@ -26,7 +26,7 @@ function App() {
       <Footer/>
       
     </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
