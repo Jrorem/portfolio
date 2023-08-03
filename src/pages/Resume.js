@@ -1,5 +1,5 @@
 import React from 'react';
-import resume from '../assets/Resume.pdf';
+import resume from '../assets/images/Resume.ee83a21dae211e428ba6.pdf';
 
 export default function Resume () {
     return <div class="about">

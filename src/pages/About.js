@@ -2,7 +2,7 @@ import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';
 import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
-import profileImage from '../assets/profile.jpg';
+import profileImage from '../assets/images/profile.e8816304971ffb02f627.jpg';
 
 export default function About () {
     
