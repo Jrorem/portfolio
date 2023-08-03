@@ -21,7 +21,7 @@ export default function About () {
             I am looking to change careers and be a programmer.
         </h1>
        
-      {function(l) {
+      {/* {function(l) {
         if (l.search[1] === '/' ) {
           var decoded = l.search.slice(1).split('&').map(function(s) { 
             return s.replace(/~and~/g, '&')
@@ -30,7 +30,7 @@ export default function About () {
               l.pathname.slice(0, -1) + decoded + l.hash
           );
         }
-      }(window.location)}
+      }(window.location)} */}
     
     </div> 
 }
